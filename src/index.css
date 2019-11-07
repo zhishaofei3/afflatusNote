@@ -1,0 +1,103 @@
+ol, ul, li {
+	list-style: none;
+}
+
+#afflatus-dialog {
+	width: 300px;
+	border: 1px solid #d72727;
+	box-shadow: 1px 1px 1px #c51609;
+	padding: 6px 8px;
+	font-size: 12px;
+	position: absolute;
+	background-color: #FFF;
+	display: none;
+}
+
+#afflatus-dialog header {
+	padding-bottom: 3px;
+	border-bottom: 2px solid #D92951;
+}
+
+#afflatus-dialog header .setting-btn {
+	color: #000;
+}
+
+#afflatus-dialog header h1 {
+	margin: 0;
+	font-size: 12px;
+	float: left;
+}
+
+#afflatus-dialog header .more-btns {
+	float: right;
+}
+
+#afflatus-dialog .loading,
+#afflatus-dialog .no-comment {
+	padding: 4px 0;
+	border-bottom: 1px dashed #E91E63;
+}
+
+#afflatus-dialog .content .list {
+	margin: 0;
+	padding-left: 0;
+}
+
+#afflatus-dialog .content .list li {
+	margin: 0;
+	border-bottom: 1px dashed #E91E63;
+	padding: 2px 0;
+	position: relative;
+}
+
+#afflatus-dialog .content .list li .like-btn {
+	position: absolute;
+	right: 3px;
+	bottom: 1px;
+	background: #FFF;
+	padding: 0 2px;
+	font-size: 14px;
+	display: none;
+	color: #E20000;
+}
+
+#afflatus-dialog .content .list li:hover .like-btn {
+	display: block;
+}
+
+
+#afflatus-dialog .notes .more {
+	padding: 5px;
+	border-bottom: 1px dashed #E91E63;
+}
+
+#afflatus-dialog .notes .more button {
+	float: right;
+}
+
+
+#afflatus-dialog .content .list li .name {
+	color: #795548;
+	margin-right: 2px;
+}
+
+#afflatus-dialog .my-note-wrap .title {
+	font-weight: bold;
+	padding: 2px 0;
+}
+
+#my-note {
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+	margin-bottom: 4px;
+}
+
+.my-note-wrap .submit {
+	width: 80px;
+	margin: 0 auto;
+	display: block;
+}
+
+
+.cf:after { clear: both; content: ""; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
